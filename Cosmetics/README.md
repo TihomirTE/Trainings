@@ -8,7 +8,7 @@ Your **task** is to **design an object-oriented class hierarchy** to model the c
 
 You are given few C# interfaces that you should **obligatory** implement and use as a basis of your code:
 
-#### 1. Categories should implement ICategory.
+#### 1. Categories must implement ICategory.
 - Adding the same product to one category more than once is allowed.
 - Minimum category name’s length length is 2 symbols and maximum is 15 symbols.
 - The error message should be **"Category name must be between {min} and {max} symbols long!""**.
