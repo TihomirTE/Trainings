@@ -22,7 +22,6 @@ namespace Cosmetics.Products
             this.Gender = gender;
             this.Milliliters = milliliters;
             this.Usage = usage;
-
         }
 
         public string Name
