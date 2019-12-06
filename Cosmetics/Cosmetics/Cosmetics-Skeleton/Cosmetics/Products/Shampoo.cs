@@ -57,7 +57,6 @@ namespace Cosmetics.Products
             }
             protected set
             {
-
                 this.price = value;
             }
         }
@@ -70,7 +69,8 @@ namespace Cosmetics.Products
 
         public string Print()
         {
-            throw new NotImplementedException();
+            return string.Format(@"Name: {0}, Barnd: {1}, Price: {2}, Gender: {3}, Milliliters: {4}, Usage: {5}",
+                this.Name, this.Brand, this.Price, this.Gender, this.Milliliters, this.Usage);
         }
     }
 }
