@@ -71,6 +71,7 @@ namespace Cosmetics.Products
         public string Print()
         {
             throw new NotImplementedException();
+            throw new NotImplementedException();
         }
     }
 }
