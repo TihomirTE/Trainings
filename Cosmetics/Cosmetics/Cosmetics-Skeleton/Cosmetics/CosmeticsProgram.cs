@@ -5,6 +5,7 @@ namespace Cosmetics
     {
         public static void Main()
         {
+            // Start the program
             CosmeticsEngine.Instance.Start();
         }
     }
